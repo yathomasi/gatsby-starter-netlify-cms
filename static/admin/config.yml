@@ -1,6 +1,6 @@
+publish_mode: editorial_workflow
 backend:
   name: git-gateway
-  publish_mode: editorial_workflow
   branch: master
   commit_messages:
     create: "Create {{collection}} “{{slug}}”"
